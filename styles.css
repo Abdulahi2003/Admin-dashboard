@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 *{
     margin: 0;
     padding: 0;
+}
+
+body{
+    font-family: Roboto, sans-serif;
 }
 .grid{
     display: grid;
@@ -10,13 +16,31 @@
 .sidebar{
     background-color: #0ea5e9;
     height: 100vh;
+    color: white;
+}
+
+.logo-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.icon-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 10px 40px;
+}
+
+.icon-text p{
+    font-size: 20px;
+    margin-left: 10px;
 }
 
 .main{
     background-color: white;
     height: 100vh;
-}
-
-img{
-    color: white;
 }
